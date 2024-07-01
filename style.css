@@ -8,3 +8,13 @@ body {
     background-color: #111;
     color: whitesmoke;
 }
+
+/* Notflix Originals, etc. */
+
+.row__poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
